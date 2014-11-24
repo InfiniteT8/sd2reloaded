@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <link href="http://mms.businesswire.com/bwapps/mediaserver/ViewMedia?mgid=172270&vid=4&download=1" rel="icon" type="image/x-icon">
     <title>SD2site</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -13,17 +14,43 @@
 
     <script src="scripts/vendor/modernizr.js"></script>
   </head>
-  <body>
+  <body>   å
     <div class="header">
-      <h1>'SD!2: Shock Value: Draft</h1>
+      <div class="title">
+        <h1>'SD!2: Shock Value</h1>
+        <audio id="src-bg" controls autoplay loop >
+          <source id="bg1" src="/images/theme.mp3" type="audio/mpeg">
+          <source id="bg2" src="/images/theme.ogg" type="audio/ogg">
+        </audio>
+      </div>
       <ul>
-        <li><a href="">| Mods |</a></li>
-        <li><a href="">| Hacks |</a></li>
-        <li><a href="">| Taunts |</a></li>
-        <li><a href="">| Videos |</a></li>
+        <li><img class="link-icon icon-one" src="http://cafequoteria.com/wp-content/uploads/2014/02/full-circle.png"/><a href="">| Mods |</a></li>
+        <li><img class="link-icon icon-two" src="http://cafequoteria.com/wp-content/uploads/2014/02/full-circle.png"/><a href="">| Hacks |</a></li>
+        <li><img class="link-icon icon-three" src="http://cafequoteria.com/wp-content/uploads/2014/02/full-circle.png"/><a href="">| Taunts |</a></li>
+        <li><img class="link-icon icon-four" src="http://cafequoteria.com/wp-content/uploads/2014/02/full-circle.png"/><a href="">| Videos |</a></li>
       </ul>
     </div>
 
+    <div class="main">
+      <div class="content-left">
+
+        </div>
+        <div class="content-right">
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-content">
+      </div>
+    </div>
+
+    <script>
+      window.onload = function() {
+        var backgroundAudio=document.getElementById("src-bg");
+        backgroundAudio.volume=0.4;
+      };
+    </script>
     <script src="scripts/vendor.js"></script>
 
         <script src="scripts/main.js"></script>
