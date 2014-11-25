@@ -11,11 +11,11 @@ src: url('../images/old_stamper.woff') format('woff');
 }
 button:focus {outline:0;}
 body {
-  background: #fafafa;
+  background: #F6F6F6;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
-  background:url('../images/bg1.png') no-repeat fixed;
-  background-size: cover;
+  color: #2B2B2B;
+  // background:url('../images/bg1.png') no-repeat fixed;
+  // background-size: cover;
 }
 
 /*----------
@@ -24,6 +24,7 @@ body {
 #player-cloud {
   position: absolute;
   right: 0;
+  top: 0;
   border: 14px solid #f5f5f5;
   border-radius: 35px;
   opacity: .2;
@@ -31,22 +32,41 @@ body {
 .header{
   @include outer-container;
   margin: 0 auto 0 auto;
-  color:#FFF;
+  color:#2B2B2B;
   font-weight: 200;
   line-height: 4px;
   border-radius: 6px;
   position: relative;
+  margin-top: 15px;
   .title {
     @include outer-container;
       h1 {
-        @include span-columns(8);
+        @include span-columns(12);
         font-size: 60px;
         line-height: 1;
-        text-align: left;
+        text-align: center;
         margin:0;
         padding-bottom : 30px;
-        color: #FFF;
+        color: #2B2B2B;
         padding-top: 30px;
+      }
+      p {
+        text-align: center;
+        opacity: .4;
+      }
+      hr {
+        height: 3px;
+        background: #DE1B1B;
+        border: 1px solid #DE1B1B;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 100px;
+        border-radius: 50px;
+        height: 100px;
+        box-shadow: 0 0 15px #6F6F6F;
       }
   }
   ul{
@@ -102,15 +122,17 @@ body {
       }
       a {
         text-decoration: none;
-        color: white;
+        color: #2B2B2B;
         font-size: 32px;
         letter-spacing: 3px;
         line-height: 30px;
+        &:active a {
+          color: blue;
+        }
       }
     }
   } 
 }
-
 
 #src-bg {
   @include span-columns(12);
@@ -157,3 +179,57 @@ body {
 /*----------
 `footer
 -----------*/
+
+/*----------
+`custom-index
+-----------*/
+.pages-main {
+  @include outer-container;
+  height: 500px;
+  background: #2B2B2B;
+  position: relative;
+  z-index: 1;
+    .mods-bg {
+      background:url('../images/bg1.png') no-repeat;
+      opacity: .2;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+}
+
+/*----------
+`mods
+------------*/
+.mods-content {
+  @include span-columns(12);
+  height: 500px;
+    .mods {
+      @include span-columns(6);
+      color:#F6F6F6;
+      position: relative;
+      z-index: 1;
+        h1{
+        }
+        p{
+          padding-left: 30px;
+        }
+    }
+}
+/*----------
+`hacks
+------------*/
+
+/*----------
+`taunts
+------------*/
+
+/*----------
+`videos
+------------*/
+
+
+
+
+
