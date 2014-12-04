@@ -170,7 +170,7 @@ body {
 
 .footer {
   @include outer-container;
-  height: 100px;
+  height: auto;
 
   background: rgba(0, 0, 0, .8);
   .footer-content{
@@ -183,6 +183,7 @@ body {
 /*----------
 `footer
 -----------*/
+
 
 /*----------
 `custom-index
@@ -218,6 +219,7 @@ body {
         }
         p{
           padding-left: 30px;
+          height: auto;
         }
     }
 }
