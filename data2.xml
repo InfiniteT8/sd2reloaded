@@ -1,0 +1,96 @@
+<mods>
+  <mod>
+    <name>Meat (Sean Stasiak)</name>
+    <author>Inspired</author>
+    <version>V 1.0</version>
+    <date>Sep 17, 2014</date>
+    <description>
+      How to install:
+    1. Unpack Meat.rar. You'll get two files: ED1L.PAC and ED1H.PAC.
+    2. Open your game image with Ultra ISO.
+    3. Replace original ED1L.PAC and ED1H.PAC with the ones you downloaded.
+    4. Save the game image.
+
+    How to use:
+    1. In game go to create a new superstar.
+    2. Choose the Rock's head and legs.
+    3. Change skin color to Color2.
+
+    For the upper body part you can use whatever you want. I recommend using Val Venis's torso since it suits perfectly both the head and the legs.
+    </description>
+    <link>http://download851.mediafire.com/ldaba8ult9lg/k9t25cgc3khgvgq/Meat.rar</link>
+    <id>mod1</id>
+  </mod>
+
+  <mod>
+    <name>The Undertaker 98' mod</name>
+    <author>Little Based</author>
+    <version>V 1.0</version>
+    <date>Mar 27 2015</date>
+    <description>
+      Hey all I was super stoked to see the progress of this game cause its always been one of my favorites. So I decided to make make an accurate taker from 98. Id always use the aba head with his attire from sd1 but it would always look off to me cause of the red hair. So I took it upon myself to recolor the hair and goatee of the aba head. It was a pain trying to get the colors to match up and I think it looks pretty good. Im going to include the taker pac file just overwrite somebody with 44kb or higher I used pac.4. This is my first mod since my time away from the forum. Id love feedback as this is my first edit for sd2. Enjoy!!!
+    </description>
+    <link>http://download1715.mediafire.com/84je7md8p27g/hlml7npgaq8odlt/ED1H.PAC.10.PAC</link>
+    <id>mod2</id>
+  </mod>
+
+  <mod>
+    <name>HBK DX 97' (Black &amp; Green)</name>
+    <author>Little Based</author>
+    <version>V 1.0</version>
+    <date>Apr 5 2015</date>
+    <description>
+      Shawn Michaels black and green degeneration X attire from 97.
+    </description>
+    <link>http://download976.mediafire.com/o4u6t71w6vhg/pk8yp6rc6ukxwj4/hbk+dx+97.rar</link>
+    <id>mod3</id>
+  </mod>
+
+    <mod>
+    <name>WWE Smackdown 2</name>
+    <author>WcW Rick</author>
+    <version>V 2.0</version>
+    <date> Apr 28 2012</date>
+    <description>
+      WcW Rick's follow up to his debut modification WWE SD!2.
+    </description>
+    <link>http://www.mediafire.com/download/kr17o1217uij37b/WWE+Smackdown+2+Final+version.7z</link>
+    <id>mod4</id>
+  </mod>
+
+  <mod>
+    <name>WcW New Blood Rising</name>
+    <author>WcW Rick</author>
+    <version>V 1.0</version>
+    <date> Mar 2, 2012</date>
+    <description>
+      WcW Rick's signature modification
+    </description>
+    <link>http://www.mediafire.com/download/41h4lj9ebwhou1d/WCW+New+Blood+Rising.zip</link>
+    <id>mod5</id>
+  </mod>
+
+  <mod>
+    <name>WWE SD2: Year Of Champions</name>
+    <author>NMCM &amp; Redeye Jedi</author>
+    <version>V 5.0</version>
+    <date>Feb 2 2013</date>
+    <description>
+      The latest release from premiere SD2 modders NMCM &amp; pioneer Redeye Jedi. This adds new superstars to the original mod from 2012.
+    </description>
+    <link>http://s4.zetaboards.com/Old_Skool_Reunion/topic/9463542/1/</link>
+    <id>mod6</id>
+  </mod>
+
+  <mod>
+    <name>WWE SD2 Shock Value</name>
+    <author>NMCM &amp; Co.</author>
+    <version>V 1.0</version>
+    <date>Unreleased: TBA</date>
+    <description>
+      Follow NMCM's latest effort as he looks to take WWF SD!2 into the HD era. This project is full of surprises.
+    </description>
+    <link>#</link>
+    <id>mod7</id>
+  </mod>
+</mods>
