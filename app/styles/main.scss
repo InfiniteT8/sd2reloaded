@@ -189,6 +189,14 @@ body {
 `custom-index
 -----------*/
 
+
+/*----------
+`home
+------------*/
+#home-info-left {
+  color: tomato;
+}
+
 /*----------
 `mods
 ------------*/
@@ -196,6 +204,31 @@ body {
   color: white;
 }
 
+#mods-name {
+  color: tomato;
+    li {
+      list-style: none;
+      text-decoration: underline;
+      line-height: 2em;
+      padding: 5px;
+      font-size: 1.5em;
+    }
+    li:hover {
+      cursor: pointer;
+    }
+}
+
+#mods-info-right {
+  padding: 10%;
+  color: tomato;
+    a {
+      color: green;
+      font-size: 1.2em;
+    }
+}
+// #mods-name li:hover {
+//   cursor: pointer;
+// }
 /*----------
 `hacks
 ------------*/
